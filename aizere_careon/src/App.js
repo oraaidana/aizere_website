@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef, useEffect } from "react";
 
 // ─── API CONFIG ───────────────────────────────────────────────────────────────
-const API = "http://127.0.0.1:8000";
+const API = "https://aizere-website.onrender.com/predict";
 async function apiPredict(file) {
   const fd = new FormData();
   fd.append("file", file);
