@@ -1,6 +1,6 @@
 --find-links https://download.pytorch.org/whl/cpu/torch_stable.html
 torch
-torchvision==0.17.0+cpu
+torchvision
 fastapi==0.110.0
 uvicorn==0.27.1
 python-multipart==0.0.9
