@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef, useEffect } from "react";
 
 // ─── API CONFIG ───────────────────────────────────────────────────────────────
-const API = "  https://6f9a-5-34-127-109.ngrok-free.app";
+const API = "https://1d3f-5-34-1-247.ngrok-free.app";
 async function apiPredict(file) {
   const fd = new FormData();
   fd.append("file", file);
